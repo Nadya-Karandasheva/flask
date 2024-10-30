@@ -7,10 +7,12 @@
    - в requirments.txt добавить строчку </br>
      ```pymongo```
    - в docker-compose.yml </br>
-     ```mongohost:
-    image: "mongo:latest"
-    ports:
-      - "27017:27017"```
+     ```
+     mongohost:
+       image: "mongo:latest"
+       ports:
+         - "27017:27017"
+     ```
    - в app.py подключение к бд и запись данных в нее (файл src/app.py)
 4. В Docker desktop запустить бд </br>
   ![image](https://github.com/user-attachments/assets/5171f9f7-dac5-4dd7-9c0a-6a6de8c8e748)
